@@ -1,0 +1,10 @@
+export { BoldoLogo } from "./boldoLogo";
+export { PrestoLogo } from "./prestoLogo";
+export { ArrowRight } from "./arrowRight";
+export { Check } from "./check";
+export { FeatherIcon } from "./feather";
+export { EyeIcon } from "./eye";
+export { SunIcon } from "./sun";
+export { ArrowLeftRounded } from "./arrowLeftRounded";
+export { ArrowRightRounded } from "./arrowRightRounded";
+export { ArrowDownRounded } from "./arrowDownRounded";
