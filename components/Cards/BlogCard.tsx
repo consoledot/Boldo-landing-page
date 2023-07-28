@@ -11,9 +11,9 @@ const BlogCard: FC<BlogCardProps> = ({ index, name, text }) => {
     <article className="flex flex-col gap-3 justify-between w-full md:w-[80%] ">
       <img src={`/assets/blog-${index}.png`} className="" />
       <div className="flex flex-col gap-2">
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-3 items-center">
           <p className="font-bold">Category</p>
-          <p>November 22,2021</p>
+          <p className="text-[#777777]">November 22,2021</p>
         </div>
         <p className="text-[16px] md:text-[20px]  my-2 md:my-5">{text}</p>
       </div>

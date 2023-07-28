@@ -14,6 +14,7 @@ const Button: FC<ButtonInterface> = ({
 }) => {
   return (
     <button
+      {...props}
       className={cn(
         " py-3 px-6 md:py-[16px] md:px-[56px] border-2 border-[#0A2640] font-bold rounded-[56px]",
         {
@@ -21,7 +22,6 @@ const Button: FC<ButtonInterface> = ({
         },
         className
       )}
-      {...props}
     >
       {title}
     </button>

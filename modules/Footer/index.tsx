@@ -26,14 +26,14 @@ const links = [
 
 const Footer = () => {
   return (
-    <footer className="max-w-7xl p-10 mx-auto flex flex-col-reverse md:grid md:grid-cols-3 gap-10 my-[30px]">
+    <footer className="max-w-7xl p-6 mx-auto flex flex-col-reverse md:grid md:grid-cols-3 gap-10 my-[30px]">
       <div className="flex flex-col justify-between gap-10">
         <BoldoLogo />
         <p className="text-[#777777]">
           Social media validation business model canvas graphical user interface
           launch party creative facebook iPad twitter.
         </p>
-        <p className="text-[#777777] my-7">All rights reserved.</p>
+        <p className="text-[#777777] md:3 md:my-7">All rights reserved.</p>
       </div>
       <div className="col-span-2">
         <div className="flex flex-wrap gap-10 justify-between md:gap-4 md:grid md:grid-cols-3 w-full">
