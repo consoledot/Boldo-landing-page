@@ -2,12 +2,12 @@ import { Button, ChartCard, MarqueeLogo, Navigation } from "../../componets";
 
 const Header = () => {
   return (
-    <main className="mx-auto py-10 max-w-7xl">
+    <main className="mx-auto py-10 max-w-7xl p-6">
       <Navigation />
       <header>
         <div className="flex flex-col md:grid md:grid-cols-2 items-center my-10  ">
           <div className="">
-            <h1 className="text-5xl leading-[72px]">
+            <h1 className="text-4xl md:text-5xl leading-[50px] md:leading-[72px]">
               Save time by building fast with Boldo Template{" "}
             </h1>
             <p className="my-5">

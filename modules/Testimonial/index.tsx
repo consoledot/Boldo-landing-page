@@ -23,14 +23,14 @@ const contacts = [
 ];
 const Testimonial = () => {
   return (
-    <section className=" bg-[#0A2640]">
+    <section className=" bg-[#0A2640] p-6">
       <div className="py-10 flex flex-col gap-10">
         <div className="max-w-7xl mx-auto">
           <div className="py-15 flex flex-col md:flex-row justify-between items-end ">
-            <h3 className="text-[40px] text-white max-w-3xl">
+            <h3 className="text-[27px] md:text-[40px] text-white max-w-3xl">
               An enterprise template to ramp up your company website
             </h3>
-            <div className="flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-3">
               <ArrowLeftRounded />
               <ArrowRightRounded />
             </div>

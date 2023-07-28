@@ -43,22 +43,25 @@ const Services = () => {
           ))}{" "}
         </div>
       </section>
-      <section className="max-w-7xl my-10 md:my-[150px]  mx-auto p-6">
+      <section className="max-w-7xl my-5 md:my-[150px]  mx-auto p-6">
         <div className="flex flex-col md:grid md:grid-cols-2 py-10 items-center">
           <div>
             <ImageCard name="income" type="man" />
           </div>
 
-          <div className="justify-self-end">
-            <p className="text-[36px]">
+          <div className="justify-self-end mt-[100px] md:mt-0">
+            <p className="text-[20px] md:text-[36px]">
               We connect our customers with the best, and help them keep up-and
               stay open.
             </p>
-            <div className="flex flex-col gap-7 my-10">
+            <div className="flex flex-col gap-3 md:gap-7 my-10">
               {whatWeDo.map((w, idx) => (
-                <article key={idx} className="flex gap-5 items-center">
-                  <Check />
-                  <p className="text-[20px]">{w}</p>
+                <article key={idx} className="flex gap-2 md:gap-5 items-center">
+                  <div className="scale-50 md:scale-100">
+                    <Check />
+                  </div>
+
+                  <p className=" text-[17px] md:text-[20px]">{w}</p>
                 </article>
               ))}
             </div>
@@ -66,7 +69,7 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <section className="max-w-7xl my-10 md:my-[150px] mx-auto p-6">
+      <section className="max-w-7xl my-10  mt-3 md:my-[150px] mx-auto p-6">
         <div className="flex flex-col md:grid md:grid-cols-2 py-10 items-center">
           <div>
             <p className=" text-[20px] md:text-[36px]">

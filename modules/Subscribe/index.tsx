@@ -15,7 +15,7 @@ const Subscribe = () => {
           />
           <Button
             title="Start now"
-            className="bg-[#65E4A3] rounded-[26px] py-[16px] px-[56px]"
+            className="bg-[#65E4A3] border-[#65E4A3] "
           />
         </div>
       </div>

@@ -3,20 +3,23 @@ import cn from "classnames";
 interface ButtonInterface extends ButtonHTMLAttributes<HTMLButtonElement> {
   title: string;
   variant?: "primary" | "secondary";
+  className?: string;
 }
 
 const Button: FC<ButtonInterface> = ({
   title,
   variant = "primary",
+  className,
   ...props
 }) => {
   return (
     <button
       className={cn(
-        "py-[16px] px-[56px] border-2 border-[text-primary] rounded-[56px]",
+        " py-3 px-6 md:py-[16px] md:px-[56px] border-2 border-[#0A2640] font-bold rounded-[56px]",
         {
           "text-white bg-[#0A2640]": variant === "secondary",
-        }
+        },
+        className
       )}
       {...props}
     >

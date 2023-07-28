@@ -26,7 +26,7 @@ const links = [
 
 const Footer = () => {
   return (
-    <footer className="max-w-7xl p-10 mx-auto flex flex-col-reverse md:grid md:grid-cols-3 gap-10 my-[100px]">
+    <footer className="max-w-7xl p-10 mx-auto flex flex-col-reverse md:grid md:grid-cols-3 gap-10 my-[30px]">
       <div className="flex flex-col justify-between gap-10">
         <BoldoLogo />
         <p className="text-[#777777]">
