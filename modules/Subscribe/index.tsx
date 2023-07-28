@@ -2,7 +2,7 @@ import { Button, Input } from "../../components";
 
 const Subscribe = () => {
   return (
-    <section className="max-w-7xl mx-auto bg-[#0A2640] my-[100px] rounded-lg p-10 ">
+    <section className="max-w-7xl mx-auto bg-[#0A2640] my-[100px] md:rounded-lg p-10 ">
       <div className="max-w-4xl mx-auto">
         <h3 className="leading-[40px] md:leading-[72px] text-[25px] md:text-[45px] text-white text-center ">
           An enterprise template to ramp up your company website
