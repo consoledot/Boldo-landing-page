@@ -1,4 +1,4 @@
-import { BlogCard, Button } from "../../componets";
+import { BlogCard, Button } from "../../components";
 
 const posts = [
   {
@@ -16,7 +16,7 @@ const posts = [
 ];
 const Blog = () => {
   return (
-    <section className="max-w-7xl mx-auto">
+    <section className="max-w-7xl mx-auto p-6">
       <div className="mx-auto max-w-4xl my-10 flex flex-col gap-3 text-center">
         <h3 className="text-1xl md:text-[20px]">Our Blog</h3>
         <p className=" text-2xl md:text-[38px] leading-[40px]">

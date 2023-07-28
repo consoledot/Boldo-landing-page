@@ -1,4 +1,4 @@
-import { TestimonialCard } from "../../componets";
+import { TestimonialCard } from "../../components";
 import { ArrowLeftRounded, ArrowRightRounded } from "../../icons";
 
 const contacts = [

@@ -4,12 +4,12 @@ import { Button } from "../Button";
 const links = ["Products", "Services", "About"];
 const Navigation = () => {
   return (
-    <nav className="md:flex justify-between items-center w-full mb-10 hidden">
-      <div>
+    <nav className="flex flex-col gap-3 md:gap-0 md:flex-row justify-between md:items-center w-full mb-10 ">
+      <div className="">
         <BoldoLogo />
       </div>
 
-      <ul className="flex items-center gap-10">
+      <ul className="flex items-center gap-5 md:gap-10">
         {links.map((link, idx) => (
           <li
             key={idx}
@@ -19,7 +19,10 @@ const Navigation = () => {
           </li>
         ))}
 
-        <Button title="Log In" className="self-center !py-[10px] !px-[45px] " />
+        <Button
+          title="Log In"
+          className="self-center py-[5px] md:!py-[10px] !px-[20px] md:!px-[45px] text-[12px] whitespace-nowrap "
+        />
       </ul>
     </nav>
   );

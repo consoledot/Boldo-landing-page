@@ -1,4 +1,4 @@
-import { Button, ImageCard, ServiceCard } from "../../componets";
+import { Button, ImageCard, ServiceCard } from "../../components";
 import { Check, EyeIcon, FeatherIcon, SunIcon } from "../../icons";
 import cn from "classnames";
 const services = [
@@ -37,7 +37,7 @@ const Services = () => {
             Handshake infographic mass market crowdfunding iteration.
           </p>
         </div>
-        <div className="flex md:flex-row flex-col gap-3 justify-between max-w-7xl mx-auto my-10">
+        <div className="flex md:flex-row flex-col gap-10 md:gap-3 justify-between max-w-7xl mx-auto my-10">
           {services.map((service, idx) => (
             <ServiceCard title={service} key={idx} index={idx} />
           ))}{" "}

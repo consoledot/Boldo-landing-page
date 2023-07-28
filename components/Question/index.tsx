@@ -9,11 +9,15 @@ const Question = ({ text }: { text: string }) => {
         className="flex justify-between items-center cursor-pointer"
         onClick={() => toggleOpen((v) => !v)}
       >
-        <p className="text-[20px] leading[18px] font-sans">{text}</p>
-        <ArrowDownRounded />
+        <p className="text-[16px] md:text-[20px] leading[18px] font-sans">
+          {text}
+        </p>
+        <div className="scale-75 md:scale-100">
+          <ArrowDownRounded />
+        </div>
       </div>
       {open ? (
-        <p>
+        <p className="text-[14px] md:text-[16px]">
           Only a real risk has the quality of a belief, Only a real risk has the
           quality of a belief, Only a real risk has the quality of a belief{" "}
           <br />

@@ -16,6 +16,6 @@ a {
   box-sizing: border-box;
 }
 
-.text-primary {
-  color: #0a2640;
-}
+@tailwind base;
+@tailwind utilities;
+@tailwind components;

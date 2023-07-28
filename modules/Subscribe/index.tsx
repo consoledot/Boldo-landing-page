@@ -1,4 +1,4 @@
-import { Button, Input } from "../../componets";
+import { Button, Input } from "../../components";
 
 const Subscribe = () => {
   return (

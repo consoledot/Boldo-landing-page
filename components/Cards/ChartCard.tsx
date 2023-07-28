@@ -1,7 +1,7 @@
 const ChartCard = () => {
   return (
-    <div className="justify-self-end w-full md:w-fit">
-      <div className="flex flex-col gap-6 max-w-sm md:max-w-lg ">
+    <div className="justify-self-end w-full md:w-fit ">
+      <div className="flex flex-col gap-6 max-w-md sm:mx-auto md:max-w-lg ">
         <img src="/assets/BarChart.png" className="max-w-lg md:h-60" />
         <div className="flex gap-2  justify-between">
           <img src="/assets/PieChart.png" />
