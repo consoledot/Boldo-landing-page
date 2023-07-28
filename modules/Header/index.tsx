@@ -16,7 +16,7 @@ const Header = () => {
               non-disclosure.
             </p>
             <div className="flex gap-3 my-10">
-              <Button title="But template" />
+              <Button title="Buy template" variant="secondary" />
               <Button title="Explore" />
             </div>
           </div>

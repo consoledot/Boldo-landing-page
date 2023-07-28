@@ -1,4 +1,4 @@
-import { ImageCard, ServiceCard } from "../../componets";
+import { Button, ImageCard, ServiceCard } from "../../componets";
 import { Check, EyeIcon, FeatherIcon, SunIcon } from "../../icons";
 import cn from "classnames";
 const services = [
@@ -43,7 +43,7 @@ const Services = () => {
           ))}{" "}
         </div>
       </section>
-      <section className="max-w-7xl my-[150px]  mx-auto">
+      <section className="max-w-7xl my-10 md:my-[150px]  mx-auto p-6">
         <div className="flex flex-col md:grid md:grid-cols-2 py-10 items-center">
           <div>
             <ImageCard name="income" type="man" />
@@ -62,13 +62,14 @@ const Services = () => {
                 </article>
               ))}
             </div>
+            <Button title="Start now" variant="secondary" />
           </div>
         </div>
       </section>
-      <section className="max-w-7xl my-[150px] mx-auto ">
+      <section className="max-w-7xl my-10 md:my-[150px] mx-auto p-6">
         <div className="flex flex-col md:grid md:grid-cols-2 py-10 items-center">
           <div>
-            <p className="text-[36px]">
+            <p className=" text-[20px] md:text-[36px]">
               We connect our customers with the best, and help them keep up-and
               stay open.
             </p>
@@ -83,8 +84,11 @@ const Services = () => {
                     }
                   )}
                 >
-                  <Icon />
-                  <p className="text-[20px]">{title}</p>
+                  <div className="scale-75 md:scale-100">
+                    <Icon />
+                  </div>
+
+                  <p className="text-[14px] md:text-[20px]">{title}</p>
                 </article>
               ))}
             </div>

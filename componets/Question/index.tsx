@@ -6,7 +6,7 @@ const Question = ({ text }: { text: string }) => {
   return (
     <article className="border-b-2 pb-5 flex flex-col gap-3">
       <div
-        className="flex justify-between items-center"
+        className="flex justify-between items-center cursor-pointer"
         onClick={() => toggleOpen((v) => !v)}
       >
         <p className="text-[20px] leading[18px] font-sans">{text}</p>

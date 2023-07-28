@@ -12,9 +12,11 @@ const ImageCard: FC<ImageCardProps> = ({ position = "left", name, type }) => {
       <img src={`/assets/${type}.png`} />
       <img
         src={`/assets/${name}.png`}
-        className={cn("absolute -bottom-[30%] ", {
-          "left-[20%]": position === "right",
-          "right-[50%]": position === "left",
+        className={cn("absolute -bottom-[40%] md:-bottom-[30%] ", {
+          "md:left-[20%] -right-[10%] md:scale-100 scale-75":
+            position === "right",
+          "md:right-[50%] right-[30%]  md:scale-100 scale-75 ":
+            position === "left",
         })}
       />
     </div>

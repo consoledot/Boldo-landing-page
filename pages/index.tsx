@@ -1,6 +1,14 @@
 import type { NextPage } from "next";
 
-import { Customers, Header, Services, Testimonial, Blog } from "../modules";
+import {
+  Customers,
+  Header,
+  Services,
+  Testimonial,
+  Blog,
+  Subscribe,
+  Footer,
+} from "../modules";
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +18,8 @@ const Home: NextPage = () => {
       <Testimonial />
       <Customers />
       <Blog />
+      <Subscribe />
+      <Footer />
     </div>
   );
 };
